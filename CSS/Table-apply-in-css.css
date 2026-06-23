@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: aquamarine;
+}
+thead tr {
+  background-color: rgb(5, 177, 5);
+}
+tr,
+th {
+  border: none;
+}
+
+tr,
+th {
+  text-align: start;
+}
+
+/* use for hover */
+td:hover {
+  background-color: palevioletred;
+}

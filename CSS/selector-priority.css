@@ -1,0 +1,15 @@
+/* id selecetor */
+#one {
+  background-color: blueviolet;
+}
+/* class selector */
+.box {
+  background-color: blue;
+}
+/* type selector */
+div {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  font-size: 64px;
+}

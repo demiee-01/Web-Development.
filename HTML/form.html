@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--styel -->
+    <style>
+      form {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+      }
+      input {
+        margin: 5px;
+      }
+      label {
+        margin: 5px;
+      }
+      button {
+        margin: 5px;
+      }
+    </style>
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- form -->
+    <form>
+      <!-- aubti of required -->
+
+      <!-- username -->
+      <label for="name">username</label>
+      <input required id="name" type="text" />
+      <!-- email -->
+      <label for="email">email</label>
+      <input required id="email" type="email" />
+      <!-- password -->
+      <label for="password">password</label>
+      <input required id="password" type="password" />
+
+      <!-- text area -->
+      <label for="bio">bio (text-area )</label>
+      <textarea id="bio"></textarea>
+      <!-- make for buttom sumit -->
+      <button>Submit</button>
+
+      <!-- field set -->
+      <fieldset>
+        <legend>Select</legend>
+        <select name="" id="">
+          <option disabled selected value="">Please select</option>
+          <option value="Coffee">Coffee</option>
+          <option value="Milk tea">Milk tea</option>
+          <option value="Macha">Macha</option>
+        </select>
+      </fieldset>
+
+      <!-- data list -->
+      <fieldset>
+        <legend>Data list</legend>
+        <input type="text" list="number" />
+
+        <datalist id="number">
+          <option disabled selected value="">Please select</option>
+          <option value="one">one</option>
+          <option value="two">two</option>
+          <option value="three">three</option>
+        </datalist>
+      </fieldset>
+
+      <!-- checkbox -->
+      <fieldset>
+        <legend>To do list</legend>
+
+        <input id="Html" type="checkbox" />
+        <label for="">Html</label>
+
+        <input id="Css" type="checkbox" />
+        <label for="">Css</label>
+
+        <input id="js" type="checkbox" />
+        <label for="">JS</label>
+
+        <!-- radio -->
+        <input name="gender" type="radio" />
+        <label id="gender" for="">Male</label>
+        <input name="gender" type="radio" />
+        <label id="gender" for="">Fammale</label>
+      </fieldset>
+
+      <!-- colcor -->
+      <input type="color" />
+
+      <!-- date -->
+      <input type="date" />
+
+      <!-- file -->
+      <input type="file" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+/* use for id selecetor */
+#heading {
+  color: aqua;
+  background-color: blueviolet;
+}
+
+/* use for attribute selecetor */
+[href] {
+  color: bu;
+  background-color: bisque;
+}
+
+/* use for cascade */
+h1 {
+  color: aquamarine;
+}
+
+div {
+  color: red;
+}
+
+/* use for class */
+.box {
+  color: orange;
+}
+.hx {
+  color: yellow;
+  background-color: blueviolet;
+}

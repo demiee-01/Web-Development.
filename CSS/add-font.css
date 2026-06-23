@@ -1,0 +1,21 @@
+/* use by import font from intenet */
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+/* use for import font for local  */
+@font-face {
+  font-family: messy font;
+  src: url(../Fonts/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+
+/* set it 2 font in google font aafter import */
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Oswald:wght@200..700&display=swap");
+#font1 {
+  font-family: "Black Ops One", system-ui;
+}
+
+#font2 {
+  font-family: "messy font";
+}
+#font3 {
+  font-family: "Oswald", "Koulen", sans-serif;
+}
