@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container-1{
+            display: flex;
+            /* ->want use for column revers */
+            flex-direction: column-reverse;
+            /* ->want use for row revers */
+            /* flex-direction: row-reverse; */
+            background-color: blueviolet;
+        }
+        .item{
+            /* flex: ; */
+            background-color: orange;
+            padding: 10px;
+            font-size: 24px;
+        }
+        .container-2{
+            display: flex;
+            /* ->want use for column revers */
+            /* flex-direction: column-reverse; */
+            /* ->want use for row revers */
+            flex-direction: row-reverse;
+            background-color: blueviolet;
+            margin: 20px;
+        }
+        /* spacce between */
+        .container-3{
+            display: flex;
+            /* ->want use for column revers */
+            /* flex-direction: column-reverse; */
+            /* ->want use for row revers */
+            justify-content: space-between;
+            background-color: blueviolet;
+            margin: 20px;
+        }
+        /* spacce Around */
+         .container-4{
+            display: flex;
+            /* ->want use for column revers */
+            /* flex-direction: column-reverse; */
+            /* ->want use for row revers */
+            justify-content:space-around;
+            background-color: blueviolet;
+            margin: 20px;
+        }
+        /* spacce Around */
+         .container-5{
+            display: flex;
+            /* ->want use for column revers */
+            /* flex-direction: column-reverse; */
+            /* ->want use for row revers */
+            justify-content:space-evenly;
+            background-color: blueviolet;
+            margin: 20px;
+        }
+            /* spacce  between | align item*/
+         .container-6{
+            display: flex ;
+            /* ->want use for column revers */
+            /* flex-direction: column-reverse; */
+            /* ->want use for row revers */
+            align-content:space-between;
+            flex-wrap:wrap ;
+            background-color: blueviolet;
+            margin: 20px;
+            height: 300px;
+            width: 500px;
+        }
+        /* spacce Around | align item */
+         .container-7{
+            display: flex;
+            /* ->want use for column revers */
+            /* flex-direction: column-reverse; */
+            /* ->want use for row revers */
+            align-content:space-evenly;
+            background-color: blueviolet;
+            margin: 20px;
+            height: 300px;
+        }
+        /* use cominater */
+        .container-6>.item{
+            background-color: orange;
+            padding: 10px;
+            font-size: 24px;
+            height: 50px;
+            width: 200px;
+
+        }
+            .container-7>.item{
+            background-color: rgb(170, 11, 19);
+            padding: 10px;
+            font-size: 24px;
+            height: 50px;
+
+        }
+    </style>
+   
+    <title>flex Property</title>
+</head>
+<body>
+    <!-- column  revers -->
+     <h3>column  revers</h3>
+     <section class="container-1">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>
+
+     <!-- row revers -->
+      <h3>row revers</h3>
+      <section class="container-2">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>
+
+          <!-- space-between -->
+           <h3>space-between</h3>
+      <section class="container-3">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>
+
+               <!-- space-Around -->
+            <h3>space-Around</h3>
+      <section class="container-4">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>
+
+                    <!-- space-evenly -->
+            <h3> space-evenly</h3>
+      <section class="container-5">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>
+
+           <!-- space-between | align item -->
+           <h3>space-between | align content</h3>
+      <section class="container-6">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>  
+                   <!-- space-Around | ilign item -->
+            <h3>space-Around | ilign content</h3>
+      <section class="container-7">
+        <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+     </section>  
+</body>
+</html>

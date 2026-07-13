@@ -1,0 +1,24 @@
+div{
+    width: 500px;
+    height: 500px;
+    font-size: 48px;
+    color: aliceblue;
+    margin: 10px;
+}
+
+#box-1 {
+    background-color: aqua;
+}
+#box-2 {
+    /* use it for  got color for primery */
+    background-color: var(--primary-color); 
+}
+#box-3 {
+    background-color: aqua;
+}
+
+/* this is they call it resuseseble , meaing call hx use ban jron */
+:root {
+    --primary-color : #F5C227
+}
+
